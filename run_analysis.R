@@ -1,9 +1,6 @@
 # load libraries
 library(dplyr) 
 
-# set dataset directory
-##setwd("UCI HAR Dataset")
-
 # read train data 
 x_train   <- read.table("/Users/chaitu/Downloads/UCI HAR Dataset/train/X_train.txt")
 y_train   <- read.table("/Users/chaitu/Downloads/UCI HAR Dataset/train/Y_train.txt") 
